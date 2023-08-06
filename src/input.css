@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg {
+    @apply flex  flex-col  justify-center items-center pt-5 gap-20 w-screen h-screen items-center bg-gray-200 md:flex-row;
+  }
+  .font-facebook {
+    @apply text-blue text-6xl font-bold mb-5;
+  }
+  .font-p-facebook {
+    @apply text-3xl font-normal leading-9 max-w-xl mb-20;
+  }
+  .card-facebook {
+    @apply flex flex-col justify-around items-center p-5 pb-10 border text-xl bg-white w-450 rounded-xl border-2 border-gray-300 shadow-lg;
+  }
+
+  .input-facebook {
+    @apply mb-5 outline-none border-2 border-gray-300 pl-4 p-3 w-full rounded-md focus:border-blue;
+  }
+
+  .botton-facebook {
+    @apply w-full border border-black border-solid text-white text-2xl font-bold bg-blue border-none p-2 w-full rounded-md;
+  }
+  .conta-facebook {
+    @apply w-220 mt-9 border border-black border-solid text-white text-lg font-bold bg-green border-none p-3 rounded-md;
+  }
+
+  .hr {
+    @apply w-full border mt-5;
+  }
+
+  .ancora-facebook {
+    @apply mt-7 text-blue;
+  }
+}
